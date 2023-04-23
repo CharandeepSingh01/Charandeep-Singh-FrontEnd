@@ -1,5 +1,7 @@
 Name - Charandeep Singh
 
+Visit assignment: https://charandeep-singh-front-end.vercel.app/
+
 Reg No - 12011066
 
 Q1. Explain what the simple List component does.

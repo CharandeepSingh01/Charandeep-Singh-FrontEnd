@@ -45,7 +45,7 @@ Lastly, the state setter function, setSelectedIndex, is defined incorrectly in t
 
 Q3. Please fix, optimize, and/or modify the component as much as you think is necessary.
 
-import React, { useState, useEffect, memo } from "react";
+```import React, { useState, useEffect, memo } from "react";
 import "./App.css";
 import PropTypes from "prop-types";
 import Navbar from "./Navbar";
@@ -123,7 +123,7 @@ WrappedListComponent.defaultProps = {
 
 const List = memo(WrappedListComponent);
 
-export default List;
+export default List;```
 
 
 

@@ -13,7 +13,7 @@ const Navbar =()=>{
                 <img style={{border:"4px solid black"}} src={img} alt=""></img>
             </div>
             <div className="nav-sub3">
-            <Link to="/dashboard" style={{ textDecoration: 'none' }}>
+            <Link to="/answers" style={{ textDecoration: 'none', color: "white" }}>
                 Answers to Given Questions</Link>
             </div>
         </div>

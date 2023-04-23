@@ -4,7 +4,7 @@ Visit assignment: https://charandeep-singh-front-end.vercel.app/
 
 Reg No - 12011066
 
-Q1. Explain what the simple List component does.
+# Q1. Explain what the simple List component does.
 
 The List component in our React application renders an unordered list of items passed to it as props. Each item is represented as a memoized functional component named "SingleListItem". The component receives various props such as the item's index, a boolean value indicating whether the item is selected or not, a click handler function, and the item's display text.
 
@@ -23,7 +23,7 @@ In summary, the List component provides a mechanism for users to select a single
 
 
 
-Q2. What problems / warnings are there with code?
+# Q2. What problems / warnings are there with code?
 
 There are several issues with the provided code:
 
@@ -43,7 +43,7 @@ In the given code, the map() method is being used without any data being passed 
 Lastly, the state setter function, setSelectedIndex, is defined incorrectly in the WrappedListComponent. The line const [setSelectedIndex, selectedIndex] = useState(); should be changed to const [selectedIndex, setSelectedIndex] = useState(null); to ensure that the initial value of the selectedIndex variable is set to null.
 
 
-Q3. Please fix, optimize, and/or modify the component as much as you think is necessary.
+# Q3. Please fix, optimize, and/or modify the component as much as you think is necessary.
 
 ```import React, { useState, useEffect, memo } from "react";
 import "./App.css";
